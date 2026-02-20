@@ -8,23 +8,23 @@ The objective of this project is to build a regression model that accurately pre
 
 ## 🛠️ Technologies Used
 
-Python
-NumPy
-Pandas
-Matplotlib
-Seaborn
-Scikit-learn
-XGBoost
+* Python
+* NumPy
+* Pandas
+* Matplotlib
+* Seaborn
+* Scikit-learn
+* XGBoost
 
 ## 📊 Project Workflow
 
-Data Collection & Loading
-Handling Missing Values
-Exploratory Data Analysis (EDA)
-Data Preprocessing & Label Encoding
-Train-Test Split
-Model Training using XGBoost Regressor
-Model Evaluation using R² Score
+1. Data Collection & Loading
+2. Handling Missing Values
+3. Exploratory Data Analysis (EDA)
+4. Data Preprocessing & Label Encoding
+5. Train-Test Split
+6. Model Training using XGBoost Regressor
+7. Model Evaluation using R² Score
 
 ## 📈 Model Performance
 
@@ -32,17 +32,17 @@ The model performance is evaluated using the R² (R-squared) metric on both trai
 
 ## 🚀 How to Run
 
-Clone the repository
-Install required libraries
-Run the Python script:
-python big_mart_sales_prediction.py
+1. Clone the repository
+2. Install required libraries
+3. Run the Python script:
+       bash -  python big_mart_sales_prediction.py
 
 ## 📂 Dataset
 
-The dataset contains product and outlet information such as:
-Item Weight
-Item Type
-Item MRP
-Outlet Size
-Outlet Type
-Item Outlet Sales (Target Variable)
+- The dataset contains product and outlet information such as:
+- Item Weight
+- Item Type
+- Item MRP
+- Outlet Size
+- Outlet Type
+- Item Outlet Sales (Target Variable)
